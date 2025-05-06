@@ -37,24 +37,23 @@ p {
 
 h2 { margin-top: 0; }
 
-#tm-video {
+.tm-video-wrapper {
     position: fixed;
-    right: 0;
-    bottom: 0;    
-    z-index: -1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Para que el video quede detrás del contenido */
 }
 
-.tm-video-wrapper { position: relative; }
-
-#tm-video-control-button {
-    cursor: pointer;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-    background-color: rgba(0,0,0,0.5);
-    color: white;    
-    padding: 10px;
+#tm-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .tm-container { padding: 30px; }
@@ -359,3 +358,22 @@ h2 { margin-top: 0; }
     .tm-drinks-nav > ul > li { margin-bottom: 10px; }
     .tm-drinks-nav > ul > li > a { display: block; }
 }
+.btn-whatsapp {
+    background-color: transparent; /* Fondo transparente */
+    color: #ffffff; /* Color verde de WhatsApp para el texto */
+    border: 2px solid #25D366; /* Borde verde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: 900; /* Texto más grueso */
+    font-size: 16px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto horizontalmente */
+    display: inline-block; /* Asegura que el botón se comporte como un bloque en línea */
+    line-height: normal; /* Ajusta la altura de línea para centrar verticalmente */
+    transition: all 0.3s ease-in-out; /* Transición suave */
+  }
+  
+  .btn-whatsapp:hover {
+    background-color: #25D366; /* Fondo verde al pasar el mouse */
+    color: white; /* Texto blanco al pasar el mouse */
+  }

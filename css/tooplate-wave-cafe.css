@@ -14,7 +14,7 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 18px;
     overflow-x: hidden;
-    background-color: #1E5050;
+    background-color: #1e2150;
 }
 
 ul {
@@ -25,7 +25,7 @@ ul {
 nav > ul > li { list-style: none; }
 
 a { 
-	color: #3CF;
+	color: rgb(0, 0, 0);
     text-decoration: none;
     transition: all 0.3s ease; 
 }
@@ -72,7 +72,7 @@ h2 { margin-top: 0; }
 
 .tm-site-header {
     background-color: white;
-    color: #099;
+    color: rgb(0, 0, 0);
     width: 100%;
     height: 160px; 
     display: flex;
@@ -104,7 +104,7 @@ h2 { margin-top: 0; }
     min-width: 240px;
     height: 100px;
     background-color: white;
-    color: #099;
+    color: rgb(0, 0, 0);
     display: flex;
     text-decoration: none;
     align-items: center;      
@@ -113,7 +113,7 @@ h2 { margin-top: 0; }
 
 .tm-page-link:hover,
 .tm-page-link.active {
-    background-color: #099;
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -150,8 +150,8 @@ h2 { margin-top: 0; }
 
 .tm-drinks-nav > ul > li a.active,
 .tm-drinks-nav > ul > li a:hover {
-    color: #96FEFF;
-    border-bottom: 4px solid #96FEFF;
+    color: #e2e2e2;
+    border-bottom: 4px solid #ffffff;
 }
 
 .tm-list-item {
@@ -167,7 +167,7 @@ h2 { margin-top: 0; }
     margin-right: 20px;
     width: 160px;
     height: 160px;
-    background-color: #099;
+    background-color: rgb(255, 255, 255);
 }
 
 .tm-list-item-img-big {
@@ -189,7 +189,7 @@ h2 { margin-top: 0; }
     margin-top: 0;
 }
 
-.tm-list-item-price { color: #96FEFF; }
+.tm-list-item-price { color: #ffffff; }
 .tm-site-footer { margin-top: 15px; }
 
 .tm-footer-text {
@@ -201,7 +201,7 @@ h2 { margin-top: 0; }
 .tm-tab-content { animation: fadeEffect 1s; }
 .tm-page-content { animation: fadeEffect 1s; }
 
-.tm-text-primary { color: #3CC; }
+.tm-text-primary { color: rgb(255, 255, 255); }
 .tm-mb-20 { margin-bottom: 20px; }
 .tm-mb-30 { margin-bottom: 30px; }
 .tm-img-right { 
